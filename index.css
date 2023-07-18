@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.container {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.barra-de-progresso {
+    height: 30px;
+    background-color: #ddd;
+    border-radius: 15px;
+    border: 2px solid #ddd;
+    width: 300px;
+    margin: 20px;
+}
+
+.progresso {
+    width: 0%;
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+    transition: width 1s ease-in-out;
+}
+
+button {
+    margin: 10px;
+    padding: 11px;
+    border-radius: 5%;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    color: #000;
+    background-color: #fff;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
